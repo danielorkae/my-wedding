@@ -1,8 +1,7 @@
-/* Header */
+/* Header Section */
 
 .header {
   height: 100vh;
-  width: 100vw;
 
   display: flex;
   justify-content: center;
@@ -14,6 +13,7 @@
 }
 
 .header h1 {
+  font-family: "Tired Panda";
   font-size: 54px;
   margin-bottom: 100px;
 }
@@ -36,5 +36,48 @@
 @media (min-width: 768px) {
   .header h1 {
     font-size: 110px;
+  }
+}
+
+/* Engageds Section */
+
+.engageds {
+  padding: 30px 0;
+}
+
+.engageds h2 {
+  font-family: "Tired Panda";
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.engageds__square {
+  width: 200px;
+  height: 200px;
+  margin: 10px auto;
+  transform: rotate(-45deg) scale(0.75);
+  background: transparent linear-gradient(225deg, #F5F5F5 0%, #EEEEEE00 100%) 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.engageds__title {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: -20px;
+}
+
+.engageds__name {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .engageds h2 {
+    font-size: 70px;
   }
 }
