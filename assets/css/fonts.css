@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Minion";
+    src: url(../fonts/MINIONPRO-REGULAR.OTF) format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Minion";
+    src: url(../fonts/MINIONPRO-BOLD.OTF) format("opentype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Tired Panda";
+    src: url(../fonts/TIRED\ PANDA.TTF) format("truetype");
+}

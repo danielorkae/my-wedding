@@ -1,0 +1,40 @@
+/* Header */
+
+.header {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .header__wrapper {
+  max-width: 80%;
+}
+
+.header h1 {
+  font-size: 54px;
+  margin-bottom: 100px;
+}
+
+.header .header__links {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.header .header__links a {
+  color: #707070;
+  padding: 15px;
+}
+
+.header .header_links a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .header h1 {
+    font-size: 110px;
+  }
+}
