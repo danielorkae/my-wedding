@@ -81,3 +81,21 @@
     font-size: 70px;
   }
 }
+
+/* Wedding Section */
+
+.wedding {
+  padding: 30px 0;
+}
+
+.wedding h2 {
+  font-family: "Tired Panda";
+  font-size: 48px;
+  margin-bottom: 80px;
+}
+
+@media (min-width: 768px) {
+  .wedding h2 {
+    font-size: 70px;
+  }
+}
