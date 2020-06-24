@@ -6,6 +6,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background: url(../img/header-bg.png);
+  background-size: cover;
+}
+
+.header .separator {
+  width: 100%;
+  padding: 30px 0;
+}
+
+.header .separator--top-header,
+.separator--bottom-header {
+  background: url(../img/header-separator.png);
+  background-repeat: repeat-x;
+  position: absolute;
+  margin: 30px 0;
+}
+
+.header .separator--top-header {
+  top: 0;
+}
+
+.header .separator--bottom-header {
+  bottom: 0;
 }
 
 .header .header__wrapper {
@@ -13,9 +37,32 @@
 }
 
 .header h1 {
+  color: #ffffff;
   font-family: "Tired Panda";
   font-size: 54px;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
+}
+
+.header .header__date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.header .header__date span {
+  border-color: #fff;
+  padding: 10px;
+  font-size: 27px;
+}
+
+.header .header__date hr {
+  width: 60%;
+  border-color: #fff;
+  margin: 0;
 }
 
 .header .header__links {
@@ -25,8 +72,8 @@
 }
 
 .header .header__links a {
-  color: #707070;
-  padding: 15px;
+  color: #ffffff;
+  padding: 10px 15px;
 }
 
 .header .header_links a:hover {
@@ -36,6 +83,28 @@
 @media (min-width: 768px) {
   .header h1 {
     font-size: 110px;
+  }
+
+  .header .header__date {
+    flex-direction: row;
+  }
+
+  .header .header__date hr {
+    width: 35%;
+  }
+
+  .header .header__date span {
+    font-size: 37px;
+    padding: 0 30px;
+  }
+
+  .header .separator--top-header,
+  .separator--bottom-header {
+    /* margin: 60px 0; */
+  }
+
+  .header .header__date {
+    margin-bottom: 100px;
   }
 }
 
@@ -56,7 +125,8 @@
   height: 200px;
   margin: 10px auto;
   transform: rotate(-45deg) scale(0.75);
-  background: transparent linear-gradient(225deg, #F5F5F5 0%, #EEEEEE00 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(225deg, #f5f5f5 0%, #eeeeee00 100%) 0%
+    0% no-repeat padding-box;
   opacity: 1;
 }
 
@@ -114,12 +184,12 @@
 
 .gift-list .card {
   margin-bottom: 30px;
-  border: 3px solid #EEEEEE;
+  border: 3px solid #eeeeee;
 }
 
 .gift-list .card .card-img-top {
   height: 300px;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 
 .gift-list .card .card-title {
@@ -138,4 +208,11 @@
   .gift-list h2 {
     font-size: 70px;
   }
+}
+
+/* Other */
+
+.separator {
+  height: 50px;
+  width: 100%;
 }
