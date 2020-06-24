@@ -163,18 +163,27 @@
 /* Wedding Section */
 
 .wedding {
-  padding: 30px 0;
+  padding: 40px 0;
+  background-image: url(../img/ligth-brow-bg.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .wedding h2 {
   font-family: "Tired Panda";
   font-size: 48px;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
+  color: #b2968b;
 }
 
 @media (min-width: 768px) {
+  .wedding {
+    padding: 80px 0;
+  }
+
   .wedding h2 {
     font-size: 70px;
+    margin-bottom: 80px;
   }
 }
 
