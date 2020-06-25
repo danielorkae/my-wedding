@@ -11,7 +11,7 @@ html {
   justify-content: center;
   align-items: center;
 
-  background: url(../img/header-bg.png);
+  background: url(../img/header-bg.jpg);
   background-size: cover;
 }
 
@@ -114,7 +114,7 @@ html {
 }
 
 .engageds__cover-photo {
-  background-image: url(../img/daniel-e-cibele.png);
+  background-image: url(../img/daniel-e-cibele.jpg);
   background-size: cover;
   height: 300px;
   background-position: center;
@@ -167,7 +167,7 @@ html {
 
 .wedding {
   padding: 40px 0;
-  background-image: url(../img/ligth-brow-bg.png);
+  background-image: url(../img/ligth-brow-bg.jpg);
   background-size: cover;
   background-position: center;
 }
