@@ -111,7 +111,7 @@
 /* Engageds Section */
 
 .engageds {
-  /* padding: 30px 0; */
+  padding-bottom: 40px;
 }
 
 .engageds__cover-photo {
@@ -151,6 +151,10 @@
 }
 
 @media (min-width: 768px) {
+  .engageds {
+    padding-bottom: 80px;
+  }
+
   .engageds__cover-photo {
     height: 700px;
   }
@@ -190,18 +194,29 @@
 /* Gift List Section */
 
 .gift-list {
-  padding: 30px 0;
+  padding: 40px 0;
+  color: #707070;
 }
 
 .gift-list h2 {
   font-family: "Tired Panda";
-  font-size: 48px;
-  margin-bottom: 80px;
+  font-size: 60px;
+  color: #B2968B;
+}
+
+.gift-list .gift-list__descriptions {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  line-height: 27px;
 }
 
 .gift-list .card {
   margin-bottom: 30px;
   border: 3px solid #eeeeee;
+}
+
+.gift-list .card .card-body {
+  padding: 10px;
 }
 
 .gift-list .card .card-img-top {
@@ -222,8 +237,21 @@
 }
 
 @media (min-width: 768px) {
+  .gift-list {
+    padding: 80px 0;
+  }
+
   .gift-list h2 {
     font-size: 70px;
+  }
+
+  .gift-list .gift-list__descriptions {
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+
+  .gift-list .card .card-body {
+    padding: 20px;
   }
 }
 

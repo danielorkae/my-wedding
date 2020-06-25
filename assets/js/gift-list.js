@@ -21,7 +21,11 @@
 
               <span class="gift-item__price">
                 <span>R$</span>
-                <span class="gift-item__value">${price.toFixed(2)}</span>
+                <span class="gift-item__value">
+                  ${Intl.NumberFormat("pt-br", {
+                    minimumFractionDigits: 2,
+                  }).format(price)}
+                </span>
               </span>
             </h5>
             <a href="https://pag.ae/${code}" class="btn btn-outline-dark btn-block" target="_blank">
@@ -42,7 +46,7 @@
   };
 
   const init = () => {
-    var giftListContainer = $("#gift-list .container");
+    var giftListContainer = $("#gift-list .row");
 
     createGiftList(giftListContainer);
   };
