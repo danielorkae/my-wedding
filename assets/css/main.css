@@ -98,11 +98,6 @@
     padding: 0 30px;
   }
 
-  .header .separator--top-header,
-  .separator--bottom-header {
-    /* margin: 60px 0; */
-  }
-
   .header .header__date {
     margin-bottom: 100px;
   }
@@ -252,6 +247,28 @@
 
   .gift-list .card .card-body {
     padding: 20px;
+  }
+}
+
+/* Footer */
+
+footer {
+  margin-top: 40px;
+}
+
+footer .separator {
+  background-image: url(../img/footer-separator.svg);
+  background-position: center;
+}
+
+footer p {
+  font-size: 16px;
+  padding: 30px 0;
+}
+
+@media (min-width: 768px) {
+  footer p {
+    padding: 60px 0;
   }
 }
 
