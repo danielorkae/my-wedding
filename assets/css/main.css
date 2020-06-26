@@ -212,10 +212,14 @@ html {
 .gift-list .card {
   margin-bottom: 30px;
   border: 3px solid #eeeeee;
+  height: 100%;
 }
 
 .gift-list .card .card-body {
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .gift-list .card .card-img-top {
