@@ -57,20 +57,20 @@
           <img src="${img}" class="card-img-top" alt="..." />
           <div class="card-body">
             <h5 class="card-title">
-              <span class="gift-item__name">
+              <div class="gift-item__name">
                 ${title}
-              </span>
+              </div>
 
-              <span class="gift-item__price text-nowrap">
+              <div class="gift-item__price text-nowrap">
                 <span>R$</span>
                 <span class="gift-item__value">
                   ${Intl.NumberFormat("pt-br", {
                     minimumFractionDigits: 2,
                   }).format(price)}
                 </span>
-              </span>
+              </div>
             </h5>
-            <a href="https://pag.ae/${code}" class="btn btn-outline-dark btn-block" target="_blank">
+            <a href="https://pag.ae/${code}" class="btn btn-outline-light btn-block" target="_blank">
               Presentear
             </a>
           </div>

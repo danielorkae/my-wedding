@@ -228,11 +228,18 @@ html {
 }
 
 .gift-list .card .card-title {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   font-weight: bold;
-  margin-bottom: 20px;
+}
+
+.gift-list .card .btn {
+  border: 3px solid #B2968B;
+  color: #B2968B;
+  font-size: 24px;
+}
+
+.gift-list .gift-item__price {
+  color: #B2968B;
+  margin: 10px 0;
 }
 
 .gift-list .gift-item__value {
