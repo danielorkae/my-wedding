@@ -25,10 +25,10 @@
       img: "assets/img/products/tapete.jpg",
     },
     {
-      title: "Lavadoura de roupas",
+      title: "Lavadora de roupas",
       price: 1299,
-      code: "7W9eydn4o",
-      img: "assets/img/products/lavadoura-de-roupas.jpg",
+      code: "7W9hnmMVo",
+      img: "assets/img/products/lavadora-de-roupas.jpg",
     },
     {
       title: "Multiprocessador",
@@ -47,6 +47,84 @@
       price: 449,
       code: "7W9exPxS3",
       img: "assets/img/products/air-fryer.jpg",
+    },
+    {
+      title: "Conjunto de panelas de teflon",
+      price: 299,
+      code: "7W9eAYib3",
+      img: "assets/img/products/conjunto-de-panelas-de-teflon.jpg",
+    },
+    {
+      title: "Panela de pressão",
+      price: 229,
+      code: "7W9eBjGxK",
+      img: "assets/img/products/panela-de-pressao.jpg",
+    },
+    {
+      title: "Varal de chão",
+      price: 59,
+      code: "7W9eCGAjt",
+      img: "assets/img/products/varal-de-chao.jpg",
+    },
+    {
+      title: "Ferro de passar roupa",
+      price: 129,
+      code: "7W9eC_W7P",
+      img: "assets/img/products/ferro-de-passar-roupa.jpg",
+    },
+    {
+      title: "Mesa de passar roupa",
+      price: 89,
+      code: "7W9eDkTKp",
+      img: "assets/img/products/mesa-de-passar-roupa.jpg",
+    },
+    {
+      title: "Jogo de cama",
+      price: 269,
+      code: "7W9eES1CK",
+      img: "assets/img/products/jogo-de-cama.jpg",
+    },
+    {
+      title: "Jogo de travesseiros",
+      price: 59,
+      code: "7W9hmxDnM",
+      img: "assets/img/products/jogo-de-travesseiro.jpg",
+    },
+    {
+      title: "Cortina",
+      price: 189,
+      code: "7W9eG5UxP",
+      img: "assets/img/products/cortinas.jpg",
+    },
+    {
+      title: "Toalhas de banho",
+      price: 69,
+      code: "7W9eGvSM8",
+      img: "assets/img/products/toalhas-de-banho.jpg",
+    },
+    {
+      title: "Colcha de cama",
+      price: 129,
+      code: "7W9eGQ1xP",
+      img: "assets/img/products/colcha.jpg",
+    },
+    {
+      title: "Edredon",
+      price: 129,
+      code: "7W9eH7BM6",
+      img: "assets/img/products/edredon.jpg",
+    },
+    {
+      title: "Ventilador",
+      price: 69,
+      code: "7W9hqnRX8",
+      img: "assets/img/products/ventilador.jpg",
+    },
+    {
+      title: "Garrafa de café",
+      price: 34,
+      code: "7W9hs6xG3",
+      img: "assets/img/products/carrafa-de-cafe.jpg",
     },
   ];
 
