@@ -8,13 +8,13 @@
     },
     {
       title: "Armário de cozinha",
-      price: 479,
+      price: 499,
       code: "247797657-a516dead-9db1-4621-9d4b-610d5c0ed08e",
       img: "assets/img/products/armario-de-cozinha.jpg",
     },
     {
       title: "Mesa e cadeiras",
-      price: 629,
+      price: 649,
       code: "247797657-5a0be21d-7a2e-454a-95e3-1c461b634c4b",
       img: "assets/img/products/mesa-cadeiras.jpg",
     },
@@ -32,13 +32,13 @@
     },
     {
       title: "Multiprocessador",
-      price: 289,
+      price: 299,
       code: "247797657-34813765-388f-446b-bba9-99ffacad87c8",
       img: "assets/img/products/multiprocessador.jpg",
     },
     {
       title: "Faqueiro",
-      price: 129,
+      price: 99,
       code: "247797657-c9223010-a57b-4abe-b77f-490ef0d64c09",
       img: "assets/img/products/faqueiro.jpg",
     },
@@ -50,7 +50,7 @@
     },
     {
       title: "Conjunto de panelas de teflon",
-      price: 299,
+      price: 349,
       code: "247797657-650276e9-e8f1-4c60-8403-58ff2e96dab0",
       img: "assets/img/products/conjunto-de-panelas-de-teflon.jpg",
     },
@@ -62,13 +62,13 @@
     },
     {
       title: "Varal de chão",
-      price: 59,
+      price: 49,
       code: "247797657-89b4e3de-2999-486e-8e85-837f59a5f9e2",
       img: "assets/img/products/varal-de-chao.jpg",
     },
     {
       title: "Ferro de passar roupa",
-      price: 129,
+      price: 119,
       code: "247797657-107ac226-7be2-4321-a2ec-66a5120ed97a",
       img: "assets/img/products/ferro-de-passar-roupa.jpg",
     },
@@ -92,7 +92,7 @@
     },
     {
       title: "Cortina",
-      price: 189,
+      price: 169,
       code: "247797657-6dbea0d3-d762-41c6-b638-ef3807e2bacd",
       img: "assets/img/products/cortinas.jpg",
     },
@@ -104,7 +104,7 @@
     },
     {
       title: "Colcha de cama",
-      price: 129,
+      price: 149,
       code: "247797657-ab953ab1-1db5-4d2b-8f37-d7c46ae14034",
       img: "assets/img/products/colcha.jpg",
     },
@@ -116,7 +116,7 @@
     },
     {
       title: "Ventilador",
-      price: 69,
+      price: 79,
       code: "247797657-75896b2f-8984-4590-a335-fad4bb4b9cca",
       img: "assets/img/products/ventilador.jpg",
     },
@@ -125,6 +125,24 @@
       price: 34,
       code: "247797657-c284d79d-7d86-4aec-84a5-623f32287f7e",
       img: "assets/img/products/garrafa-de-cafe.jpg",
+    },
+    {
+      title: "Sofá",
+      price: 749,
+      code: "247797657-b2938c2e-69ea-42fe-bf33-62aec0411f67",
+      img: "assets/img/products/sofa.jpg",
+    },
+    {
+      title: "Cama",
+      price: 999,
+      code: "247797657-b2938c2e-69ea-42fe-bf33-62aec0411f67",
+      img: "assets/img/products/cama.jpg",
+    },
+    {
+      title: "Fogão",
+      price: 899,
+      code: "247797657-b2938c2e-69ea-42fe-bf33-62aec0411f67",
+      img: "assets/img/products/fogao.jpg",
     },
   ];
 
