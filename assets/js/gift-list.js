@@ -130,6 +130,7 @@
 
   const giftListContainer = $("#gift-list .row");
   const searchInput = $(".gift-list .gift-list__search input");
+  const sortInput = $(".gift-list .gift-list__sort select");
 
   const createGiftCard = (title, price, code, img) => {
     return `
@@ -191,17 +192,32 @@
     createGiftList(giftListContainer, filtered);
   };
 
-  const createSearch = (input, list) => {
+  const initSearch = (input, list) => {
     input.keyup(function () {
       let keyword = input.val();
-      console.log(keyword);
       searchGift(keyword, list);
     });
   };
 
-  const init = () => {
-    createGiftList(giftListContainer, products, true);
-    createSearch(searchInput, products);
+  const sortByPrice = (list, order = "desc") => {
+    list.sort((a, b) => {
+      if (order == "desc") {
+        return a.price > b.price ? -1 : 1;
+      } else if (order == "asc") {
+        return a.price < b.price ? -1 : 1;
+      }
+
+      return 0;
+    });
+
+    createGiftList(giftListContainer, list);
+  };
+
+  const initSort = (sortInput, list) => {
+    sortInput.change(() => {
+      let order = sortInput.val();
+      sortByPrice(list, order);
+    });
   };
 
   const shuffle = (array) => {
@@ -222,6 +238,12 @@
     }
 
     return array;
+  };
+
+  const init = () => {
+    initSearch(searchInput, products);
+    initSort(sortInput, products);
+    createGiftList(giftListContainer, products, true);
   };
 
   init();
