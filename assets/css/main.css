@@ -179,6 +179,19 @@ html {
   color: #b2968b;
 }
 
+.wedding .wedding__btn {
+  display: inline-block;
+  background-color: #A77D6C;
+  border: none;
+  padding: 10px 25px;
+  margin: 40px 0;
+}
+
+.wedding .wedding__leaf {
+  display: block;
+  margin: 0 auto;
+}
+
 @media (min-width: 768px) {
   .wedding {
     padding: 80px 0;
