@@ -1,0 +1,45 @@
+body {
+    background-image: url(../img/ty-bg.png);
+    background-size: auto;
+}
+
+.separator {
+    background: url(../img/footer-separator.svg);
+    background-repeat: repeat-x;
+
+    margin: 40px 0 30px 0;
+    height: 50px;
+    width: 100%;
+}
+
+h1 {
+    color: #A77D6C;
+    font-family: "Tired Panda";
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.btn-back {
+    display: inline-block;
+    background-color: #A77D6C;
+    border: none;
+    padding: 10px 25px;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-position: top;
+    }
+
+    h1 {
+        font-size: 90px;
+    }
+}
+
+@media (min-width: 1440px) {
+    body {
+        background-position-x: center;
+        background-size: cover;
+    }
+}
