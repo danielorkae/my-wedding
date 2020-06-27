@@ -209,6 +209,10 @@ html {
   line-height: 27px;
 }
 
+.gift-list__filters {
+  margin-bottom: 50px;
+}
+
 .gift-list .card {
   margin-bottom: 30px;
   border: 3px solid #eeeeee;

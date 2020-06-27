@@ -1,5 +1,5 @@
 (() => {
-  const list = [
+  const products = [
     {
       title: "Microondas",
       price: 599,
@@ -128,6 +128,9 @@
     },
   ];
 
+  const giftListContainer = $("#gift-list .row");
+  const searchInput = $(".gift-list .gift-list__search input");
+
   const createGiftCard = (title, price, code, img) => {
     return `
       <div class="col-md-4 mb-4">
@@ -157,20 +160,48 @@
       `;
   };
 
-  const createGiftList = (container) => {
-    shuffle(list);
+  const createGiftList = (container, items, randomize) => {
+    if (randomize) {
+      shuffle(items);
+    }
 
-    list.forEach((item) => {
+    container.html("");
+
+    if (!items.length) {
+      container.html(
+        `
+        <div class="col">Nenhum item encontrado...</div>
+        `
+      );
+      return;
+    }
+
+    items.forEach((item) => {
       container.append(
         createGiftCard(item.title, item.price, item.code, item.img)
       );
     });
   };
 
-  const init = () => {
-    var giftListContainer = $("#gift-list .row");
+  const searchGift = (keyword, list) => {
+    var filtered = list.filter((item) =>
+      item.title.toLowerCase().includes(keyword.toLowerCase())
+    );
 
-    createGiftList(giftListContainer);
+    createGiftList(giftListContainer, filtered);
+  };
+
+  const createSearch = (input, list) => {
+    input.keyup(function () {
+      let keyword = input.val();
+      console.log(keyword);
+      searchGift(keyword, list);
+    });
+  };
+
+  const init = () => {
+    createGiftList(giftListContainer, products, true);
+    createSearch(searchInput, products);
   };
 
   const shuffle = (array) => {
