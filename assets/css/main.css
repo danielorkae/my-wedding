@@ -223,8 +223,7 @@ html {
 }
 
 .gift-list__filters {
-  display: flex;
-  justify-content: space-between;
+  display: block;
   margin-bottom: 50px;
 }
 
@@ -287,6 +286,12 @@ html {
   .gift-list .gift-list__descriptions {
     margin-top: 50px;
     margin-bottom: 80px;
+  }
+
+  .gift-list__filters {
+    display: flex;
+    justify-content: space-between;
+    display: flex;
   }
 
   .gift-list .card .card-body {
