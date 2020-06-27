@@ -215,6 +215,16 @@ html {
   margin-bottom: 50px;
 }
 
+.gift-list .gift-list__search input:focus {
+  border-color: #B2968B;
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+}
+
+.gift-list .gift-list__sort select:focus {
+  border-color: #B2968B;
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+}
+
 .gift-list .card {
   margin-bottom: 30px;
   border: 3px solid #eeeeee;
