@@ -22,6 +22,7 @@ h1 {
     text-align: center;
     font-size: 42px;
     margin-bottom: 60px;
+    line-height: 57px;
 }
 
 .countdown .days__value {
@@ -33,6 +34,10 @@ h1 {
 }
 
 .countdown .minutes__value {
+    font-weight: bold;
+}
+
+.countdown .seconds__value {
     font-weight: bold;
 }
 
@@ -72,6 +77,7 @@ footer p {
 
     .countdown {
         font-size: 75px;
+        line-height: 80px;
     }
 
     footer {
