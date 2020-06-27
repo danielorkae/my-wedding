@@ -124,7 +124,7 @@
       title: "Garrafa de café",
       price: 34,
       code: "247797657-c284d79d-7d86-4aec-84a5-623f32287f7e",
-      img: "assets/img/products/carrafa-de-cafe.jpg",
+      img: "assets/img/products/garrafa-de-cafe.jpg",
     },
   ];
 
