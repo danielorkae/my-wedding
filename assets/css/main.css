@@ -8,8 +8,9 @@ html {
   height: 100vh;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  flex-direction: column;
 
   background: url(../img/header-bg.jpg);
   background-size: cover;
@@ -24,16 +25,15 @@ html {
 .separator--bottom-header {
   background: url(../img/header-separator.png);
   background-repeat: repeat-x;
-  position: absolute;
   margin: 30px 0;
 }
 
 .header .separator--top-header {
-  top: 0;
+  /* top: 0; */
 }
 
 .header .separator--bottom-header {
-  bottom: 0;
+  /* bottom: 0; */
 }
 
 .header .header__wrapper {
